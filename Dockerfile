@@ -2,7 +2,9 @@ FROM kalilinux/kali-rolling:amd64
 
 RUN apt-get update \
 && DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
+apache2 \
 isc-dhcp-server \
+macchanger \
 dhcpig \
 yersinia \
 aircrack-ng \
