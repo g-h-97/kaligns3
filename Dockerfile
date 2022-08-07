@@ -10,7 +10,7 @@ iputils-arping \
 arp-scan \
 bind9-dnsutils \
 binwalk \
-tftpd \
+atftpd \
 dmitry \
 dns2tcp \
 dnschef \
