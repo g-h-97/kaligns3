@@ -2,6 +2,7 @@ FROM kalilinux/kali-rolling:amd64
 
 RUN apt-get update \
 && DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
+net-tools \
 rsyslog \
 ntp \
 apache2 \
