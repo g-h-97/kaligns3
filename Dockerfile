@@ -21,6 +21,7 @@ arp-scan \
 bind9-dnsutils \
 binwalk \
 atftpd \
+vsftpd \
 dmitry \
 dns2tcp \
 dnschef \
