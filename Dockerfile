@@ -50,6 +50,7 @@ iputils-ping \
 netcat-openbsd \
 nmap \
 openssh-client \
+openssh-server \
 openssl \
 smbclient \
 traceroute \
