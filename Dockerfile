@@ -2,6 +2,8 @@ FROM kalilinux/kali-rolling:amd64
 
 RUN apt-get update \
 && DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
+ansible \
+python3-pip \
 snmp \
 snmpd \
 bind9 \
